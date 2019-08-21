@@ -2,21 +2,41 @@ body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #cbf1f5;
 }
 .top-container{
   padding: 20px;
+  color: white;
+  height: 700px;
+  /* background-color: #cbf1f5; */
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.top-container h2{
+  font-weight: normal;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 h1{
-  margin:0 auto 0 auto;
-  width: 20%;
-  font-size: 3em;
+  margin:180px auto 0 auto;
+  width: 50%;
+  font-size: 7rem;
   font-family: 'Sacramento', cursive;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.a{
+  color: #11999E;
+}
+.skill-row{
+  width: 50%;
+  margin: 0 auto 0 auto;
 }
 .middle-container{
+  margin-top: 10px;
 }
 
 .bottom-container{
